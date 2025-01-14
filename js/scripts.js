@@ -3,6 +3,7 @@ const generatePasswordButton = document.querySelector("#generate-password");
 const generatedPasswordElement = document.querySelector("#generated-password");
 
 // Após refatoração
+
 const openCloseGeneratorButton = document.querySelector(
   "#open-generate-password"
 );
@@ -14,6 +15,7 @@ const symbolsInput = document.querySelector("#symbols");
 const copyPasswordButton = document.querySelector("#copy-password");
 
 // Funções
+
 const getLetterLowerCase = () => {
   return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
 };
